@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="76x76" href="./logo.png">
+    <link href="https://fonts.cdnfonts.com/css/adobe-clean" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Jetoken</title>
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./virtual.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" id="mynav">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-lg-5" href="./">
+                <div class="img-contain">
+                    <img src="./bookinglogo.png" alt="">
+                </div>
+            </a>
+            <button class="navbar-toggler mytoggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:contact@jetoken.net" aria-current="page">Support</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Concierge</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="concierge.html">Leisure</a></li>
+                            <li><a class="dropdown-item" href="concierge_business.html">Business</a></li>
+                            <li><a class="dropdown-item" href="#">Virtual Tour</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My Trip</a>
+                    </li>
+                </ul>
+                    <div class="action-buttons d-flex me-lg-1">
+                        <a href="#" class="btn">Login</a>
+                        <a href="#" class="btn btn-default ms-1">Create account</a>
+                    </div>
+                    <div class="action-buttons d-flex me-lg-1">
+                        <a href="#" class="btn btn-default ms-1">Go to Dashboard</a>
+                    </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <div class="container">
+        <div class="wow">
+            <h2 class="text-center section-title virt">VIRTUAL <span class="tour">TOUR</span></h2>
+            <p class="text-center">TAKE A DIVE INTO THE REAL LIFE LUXURY THAT YOU WILL BE ABLE TO EXPERIENCE WITH JETOKEN</p>
+            <p class="text-center">OUR VIRTUAL TOUR GIVES YOU A FIRST LOOK AT WHAT AWAITS YOU.</p>
+        </div>
+        <div class="jumbotron d-flex align-items-center">
+            <iframe src="https://vrcloud.com/?pv=1566409365" class="virtual border" title="Iframe Example"></iframe>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3 class="fw-bolder text-light">JETOKEN</h3>
+                        <p class="text-light">
+                            We accept Credit Card, Debit Card and Cryptocurrency payments.
+                        </p>
+                        <div class="d-flex">
+                            <div>
+                                <img class="p-img" src="visa.png" alt="">
+                            </div>
+                            <div>
+                                <img class="p-img" src="master-card.png" alt="">
+                            </div>
+                            <div>
+                                <img class="p-img" src="american.png" alt="">
+                            </div>
+                        </div>
+                        <div class="d-flex mt-1">
+                            <div>
+                                <img class="p-img" src="swipe.png" alt="">
+                            </div>
+                            <div>
+                                <img class="p-img" src="binance-pay.svg" alt="">
+                            </div>
+                            <div>
+                                <img class="p-img" src="crypto_com.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 accord">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                        JETOKEN
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        <ul class="list-unstyled">
+                                            <li><a href="https://jetoken.org/team/" class="text-light fw-light footer-link">About us</a></li>
+                                            <li><a href="https://jetoken.org/" class="text-light fw-light footer-link">Jetoken</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                        SUPPORT
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body">
+                                        <ul class="list-unstyled">
+                                            <li><a href="mailto:contact@jetoken.net" class="text-light fw-light footer-link">Help Center</a></li>
+                                            <li><a href="#" class="text-light fw-light footer-link">Terms & Conditions</a></li>
+                                            <li><a href="#" class="text-light fw-light footer-link">Privacy policy</a></li>
+                                            <li><a href="mailto:contact@jetoken.net" class="text-light fw-light footer-link">Contact us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                        QUICK LINKS
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="accordion-body">
+                                        <ul class="list-unstyled">
+                                            <li><a href="https://exchange.jetoken.net/" class="text-light fw-light footer-link">Exchange</a></li>
+                                            <li><a href="https://jetoken.org/presale-final/" class="text-light fw-light footer-link">Buy Jetoken</a></li>
+                                            <li><a href="./concierge.html" class="text-light fw-light footer-link">Concierge</a></li>
+                                            <li><a href="#" class="text-light fw-light footer-link">Login</a></li>
+                                            <li><a href="#" class="text-light fw-light footer-link">Sign up</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                        COMMUNITY
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                                    <div class="accordion-body">
+                                        <ul class="list-unstyled">
+                                            <li><a href="https://twitter.com/Jetoken1?t=QZV1diET62gs39cmb0fetQ&s=09" class="text-light fw-light footer-link">Twitter</a></li>
+                                            <li><a href="https://www.facebook.com/jetokenofficial/" class="text-light fw-light footer-link">Facebook</a></li>
+                                            <li><a href="https://t.me/Jetokenbsc" class="text-light fw-light footer-link">Telegram</a></li>
+                                            <li><a href="https://www.instagram.com/jetoken/" class="text-light fw-light footer-link">Instagram</a></li>
+                                            <li><a href="tel:+(888) 983-4771" class="text-light fw-light footer-link"><i class="fas fa-phone-alt"></i> (888) 983-4771</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 jet-footer">
+                        <h5 class="text-light">JETOKEN</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="https://jetoken.org/team/" class="text-light fw-light footer-link">About us</a></li>
+                            <li><a href="https://jetoken.org/" class="text-light fw-light footer-link">Jetoken</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2 jet-footer">
+                        <h5 class="text-light">SUPPORT</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="mailto:contact@jetoken.net" class="text-light fw-light footer-link">Help Center</a></li>
+                            <li><a href="#" class="text-light fw-light footer-link">Terms & Conditions</a></li>
+                            <li><a href="#" class="text-light fw-light footer-link">Privacy policy</a></li>
+                            <li><a href="mailto:contact@jetoken.net" class="text-light fw-light footer-link">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2 jet-footer">
+                        <h5 class="text-light">QUICK LINKS</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="https://exchange.jetoken.net/" class="text-light fw-light footer-link">Exchange</a></li>
+                            <li><a href="https://jetoken.org/presale-final/" class="text-light fw-light footer-link">Buy Jetoken</a></li>
+                            <li><a href="./concierge.html" class="text-light fw-light footer-link">Concierge</a></li>
+                            <li><a href="#" class="text-light fw-light footer-link">Login</a></li>
+                            <li><a href="#" class="text-light fw-light footer-link">Sign up</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2 jet-footer">
+                        <h5 class="text-light">COMMUNITY</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="https://twitter.com/Jetoken1?t=QZV1diET62gs39cmb0fetQ&s=09" class="text-light fw-light footer-link">Twitter</a></li>
+                            <li><a href="https://www.facebook.com/jetokenofficial/" class="text-light fw-light footer-link">Facebook</a></li>
+                            <li><a href="https://t.me/Jetokenbsc" class="text-light fw-light footer-link">Telegram</a></li>
+                            <li><a href="https://www.instagram.com/jetoken/" class="text-light fw-light footer-link">Instagram</a></li>
+                            <li><a href="tel:+(888) 983-4771" class="text-light fw-light footer-link"><i class="fas fa-phone-alt"></i> (888) 983-4771</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="bg-light">
+                <p class="text-center fw-light footer-link">&copy; Copyright 2021. Jetoken.net</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FOOTER END -->
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+@import url('http://fonts.cdnfonts.com/css/nexa-bold');
+.jumbotron{
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid rgb(212, 212, 212);
+    margin-bottom: 30px;
+}
+
+.virt{
+    font-family: 'Nexa', sans-serif;
+    font-weight: 700;
+    margin-bottom: -20px;
+}
+.tour{
+    font-family: 'Nexa', sans-serif;
+    font-weight: 500;
+}
+.virtual{
+    height: 600px;
+    width: 100vw;
+}
